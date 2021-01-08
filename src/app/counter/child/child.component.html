@@ -1,0 +1,23 @@
+<div class="p-d-flex p-jc-center p-mt-4">
+  <p-card header="Child">
+    <div class="p-d-flex p-jc-center">
+      <button
+        pButton
+        pRipple
+        type="button"
+        label="Multiply"
+        class="p-button-raised p-button-warning p-mx-2"
+        (click)="multiply()"
+      ></button>
+      <button
+        pButton
+        pRipple
+        type="button"
+        label="Divide"
+        class="p-button-raised p-button-danger p-mx-2"
+        (click)="divide()"
+      ></button>
+    </div>
+    <app-grandchild class="p-d-block p-shadow-24"></app-grandchild>
+  </p-card>
+</div>

@@ -31,7 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/md-dark-indigo/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeflex/primeflex.css"
+
             ],
             "scripts": []
           },
@@ -127,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "ngrx-basic"
+  "defaultProject": "ngrx-basic",
+  "cli": {
+    "analytics": "799a96fa-e327-45e2-a4c0-e2d85746cfc4"
+  }
 }
